@@ -1,0 +1,17 @@
+.main-page {
+  /* background-color: darkkhaki; */
+  display: flex;
+  flex-grow: 1;
+}
+
+.left-container {
+  width: 50%;
+  bottom: 0;
+  border: 1px solid grey;
+}
+
+.right-container {
+  width: 50%;
+  bottom: 0;
+  border: 1px solid grey;
+}

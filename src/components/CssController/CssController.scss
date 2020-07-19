@@ -1,0 +1,75 @@
+.css-controller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.css-description {
+  color: #fff;
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.css-control-pad {
+  display: flex;
+  flex-direction: column;
+}
+
+.css-option {
+  position: relative;
+  width: 100px;
+  height: 1.2em;
+  text-align: center;
+  border-collapse: collapse;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+
+
+  &:before {
+    transition: all 0.4s;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 20%;
+    left: 50%;
+    margin-left: -50%;
+    border-color: rgba(200, 200, 200, 0);
+    border-style: solid;
+    border-width: 0 1px;
+  }
+
+  &:after {
+    transition: all 0.4s;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    margin-left: -25%;
+    top: 0;
+    border-color: rgba(200, 200, 200, 0);
+    border-style: solid;
+    border-width: 1px 0;
+  }
+
+  &:hover {
+    color: #4099ff;
+
+    &:before {
+      height: 22px;
+      top: 0%;
+      border-color: rgba(90, 90, 90, 1);
+    }
+
+    &:after {
+      width: 101px;
+      margin-left: -50%;
+      border-color: rgba(90, 90, 90, 1);
+    }
+  }
+}
+.active{
+    color: #4099ff;
+}

@@ -1,13 +1,13 @@
 import React from "react";
 
 import ShowBox from "../../components/ShowBox/ShowBox";
-import CssController from "../../components/CssController/CssController";
+import FlexParentContainer from "../../components/CssController/FlexParentContainer/FlexParentContainer";
 import "./MainPage.css";
 const MainPage = (props) => {
   return (
     <div className="main-page">
       <div className="left-container">
-        <CssController />
+        <FlexParentContainer />
       </div>
       <div className="right-container">
         <ShowBox />

@@ -18,14 +18,12 @@
 
 .css-option {
   position: relative;
-  width: 100px;
+  width: 200px;
   height: 1.2em;
   text-align: center;
   border-collapse: collapse;
   text-decoration: none;
   color: #fff;
-  margin: 0 10px;
-
 
   &:before {
     transition: all 0.4s;
@@ -64,12 +62,12 @@
     }
 
     &:after {
-      width: 101px;
+      width: 201px;
       margin-left: -50%;
       border-color: rgba(90, 90, 90, 1);
     }
   }
 }
-.active{
-    color: #4099ff;
+.active {
+  color: #4099ff;
 }
